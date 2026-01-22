@@ -1,0 +1,17 @@
+==2228== Invalid write of size 4
+==2228==    at 0x1093FF: main (malloc2d.c:60)
+==2228==  Address 0x4a97260 is 0 bytes after a block of size 400 alloc'd
+==2228==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2228==    by 0x109280: malloc2d (malloc2d.c:26)
+==2228==    by 0x109385: main (malloc2d.c:52)
+==2228== 
+==2228== 
+==2228== Process terminating with default action of signal 11 (SIGSEGV)
+==2228==  Access not within mapped region at address 0x4E97000
+==2228==    at 0x1093FF: main (malloc2d.c:60)
+==2228==  If you believe this happened as a result of a stack
+==2228==  overflow in your program's main thread (unlikely but
+==2228==  possible), you can try to increase the size of the
+==2228==  main thread stack using the --main-stacksize= flag.
+==2228==  The main thread stack size used in this run was 8388608.
+Segmentation fault (core dumped)
