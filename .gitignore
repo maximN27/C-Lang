@@ -1,0 +1,7 @@
+# GitIgnore for C-Lang Repo
+
+# Output files
+*.o
+*.out
+*.exe
+*.elf
